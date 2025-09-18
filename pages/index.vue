@@ -92,16 +92,32 @@
               <div class="terminal-button yellow hover-pulse"></div>
               <div class="terminal-button green hover-pulse"></div>
             </div>
-            <span class="ml-4 text-gray-400 text-sm">zraxyl@localhost:~</span>
+            <span class="ml-4 text-gray-400 text-sm">root@zraxyl:~</span>
           </div>
           <div class="p-4 text-green-400 font-mono text-sm relative z-10">
-            <div class="mb-2 typing-animation cursor-blink">$ neofetch</div>
-            <div class="mb-1 text-blue-400 terminal-line">       ███████ Zraxyl OS</div>
-            <div class="mb-1 text-blue-400 terminal-line">      ███   ███ ----------</div>
-            <div class="mb-1 text-blue-400 terminal-line">     ███     ███ OS: Zraxyl Linux x86_64</div>
-            <div class="mb-1 text-blue-400 terminal-line">    ███   ███     Host: Custom Build</div>
-            <div class="mb-1 text-blue-400 terminal-line">   ███████       Kernel: 6.5.0-zraxyl</div>
-            <div class="text-gray-400 terminal-line">Shell: zsh 5.9</div>
+            <div class="mb-2 typing-animation cursor-blink">$ Welcome</div>
+            <div class="flex">
+              <pre class="mr-6 text-blue-400 font-mono text-xs leading-tight">
+                <div class="terminal-line">          __________          
+        / __________ \        
+      / /             \ \     
+    / /   .-"````"-.   \ \    
+   | | |/            \| | |   
+   | |    Z R A X Y L    | |   
+   | | \ ¯¯¯¯¯¯¯¯¯¯¯¯ / | |   
+    \ \ `-.___..___.-' / /    
+     '.'._         _.' .'     
+       '-.| C - M | .-'       </div>
+              </pre>
+              <div class="text-white">
+                <div class="mb-1 terminal-line"><span class="text-blue-400">OS:</span> Zraxyl Linux x86_64</div>
+                <div class="mb-1 terminal-line"><span class="text-blue-400">Host:</span> Custom Build</div>
+                <div class="mb-1 terminal-line"><span class="text-blue-400">Kernel:</span> 6.15.9-zraxyl</div>
+                <div class="mb-1 terminal-line"><span class="text-blue-400">Shell:</span> zsh 5.9</div>
+                <div class="mb-1 terminal-line"><span class="text-blue-400">Resolution:</span> 1920x1080</div>
+                <div class="terminal-line"><span class="text-blue-400">Terminal:</span> zraxyl-term</div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -393,7 +409,7 @@ onMounted(() => {
   setTimeout(() => {
     const typingElement = document.querySelector('.typing-animation')
     if (typingElement) {
-      let text = '$ neofetch'
+      let text = '$ Hi There!'
       typingElement.textContent = ''
       let i = 0
       
@@ -411,7 +427,7 @@ onMounted(() => {
               setTimeout(() => {
                 line.style.opacity = '1'
                 line.style.transform = 'translateX(0)'
-              }, index * 200)
+              }, index * 150)
             })
           }, 500)
         }

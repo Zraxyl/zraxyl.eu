@@ -30,7 +30,6 @@
                   <li><a href="#security" class="hover:bg-primary hover:text-primary-content">Security Features</a></li>
                   <li><a href="#development" class="hover:bg-primary hover:text-primary-content">Development</a></li>
                   <li><a href="#troubleshooting" class="hover:bg-primary hover:text-primary-content">Troubleshooting</a></li>
-                  <li><a href="#api-reference" class="hover:bg-primary hover:text-primary-content">API Reference</a></li>
                 </ul>
               </div>
             </div>
@@ -731,65 +730,6 @@
                 </div>
                 <div class="collapse-content"> 
                   <p>Run <code>zpkg update</code> first, then try installing again. Check available disk space and network connectivity.</p>
-                </div>
-              </div>
-            </section>
-
-            <!-- API Reference -->
-            <section id="api-reference" class="mb-16">
-              <h2 class="text-3xl font-bold mb-6">API Reference</h2>
-              
-              <p class="mb-6">Zraxyl OS provides several APIs for system integration and application development.</p>
-              
-              <div class="tabs tabs-boxed mb-6">
-                <a class="tab tab-active">System API</a>
-                <a class="tab">Hardware API</a>
-                <a class="tab">Package API</a>
-                <a class="tab">Security API</a>
-              </div>
-              
-              <div class="card bg-base-200 shadow-lg mb-6">
-                <div class="card-body">
-                  <h4 class="card-title">System Information API</h4>
-                  <div class="mockup-code text-sm">
-                    <pre><code>// Get system information
-GET /api/v1/system/info
-
-// Response
-{
-  "version": "2.4.1",
-  "kernel": "6.5.8-zraxyl",
-  "arch": "x86_64",
-  "uptime": 1847392,
-  "load_average": [0.23, 0.45, 0.67],
-  "memory": {
-    "total": 16777216,
-    "used": 4194304,
-    "free": 12582912,
-    "cached": 2097152
-  }
-}</code></pre>
-                  </div>
-                </div>
-              </div>
-              
-              <div class="card bg-base-200 shadow-lg">
-                <div class="card-body">
-                  <h4 class="card-title">Package Management API</h4>
-                  <div class="mockup-code text-sm">
-                    <pre><code>// Install package
-POST /api/v1/packages/install
-{
-  "package": "firefox",
-  "version": "latest"
-}
-
-// List installed packages
-GET /api/v1/packages/list?filter=installed
-
-// Search packages
-GET /api/v1/packages/search?q=text%20editor</code></pre>
-                  </div>
                 </div>
               </div>
             </section>

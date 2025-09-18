@@ -15,7 +15,6 @@
             <li><NuxtLink to="/docs">Documentation</NuxtLink></li>
             <li><NuxtLink to="/community">Community</NuxtLink></li>
             <li><NuxtLink to="/developers">Developers</NuxtLink></li>
-            <li><NuxtLink to="/social">Social Media</NuxtLink></li>
           </ul>
         </div>
         <NuxtLink to="/" class="btn btn-ghost text-xl font-bold">
@@ -30,7 +29,6 @@
           <li><NuxtLink to="/docs" class="btn btn-ghost">Documentation</NuxtLink></li>
           <li><NuxtLink to="/community" class="btn btn-ghost">Community</NuxtLink></li>
           <li><NuxtLink to="/developers" class="btn btn-ghost">Developers</NuxtLink></li>
-          <li><NuxtLink to="/social" class="btn btn-ghost">Social</NuxtLink></li>
         </ul>
       </div>
       
@@ -56,7 +54,6 @@
         <NuxtLink to="/download" class="link link-hover">Download</NuxtLink>
         <NuxtLink to="/community" class="link link-hover">Community</NuxtLink>
         <NuxtLink to="/developers" class="link link-hover">Developers</NuxtLink>
-        <NuxtLink to="/social" class="link link-hover">Social Media</NuxtLink>
         <a href="https://github.com/zraxyl-os" target="_blank" class="link link-hover">GitHub</a>
       </nav>
       <nav>
