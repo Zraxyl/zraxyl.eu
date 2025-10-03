@@ -109,7 +109,7 @@
                   <div class="stat-value text-secondary text-lg">1.3K</div>
                 </div>
               </div>
-              <a href="https://discord.gg/zraxyl" target="_blank" class="btn btn-primary btn-wide">
+              <a href="https://discord.gg/nnjnZEeCJM" target="_blank" class="btn btn-primary btn-wide">
                 Join Discord
               </a>
             </div>
@@ -135,7 +135,7 @@
                   <div class="stat-value text-info text-lg">642</div>
                 </div>
               </div>
-              <a href="https://github.com/zraxyl/zraxyl-os" target="_blank" class="btn btn-accent btn-wide">
+              <a href="https://github.com/zraxyl" target="_blank" class="btn btn-accent btn-wide">
                 View on GitHub
               </a>
             </div>

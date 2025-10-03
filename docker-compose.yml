@@ -1,0 +1,11 @@
+services:
+  nuxt:
+    build: .
+    container_name: nuxt-app
+    restart: always
+    ports:
+      - "2002:3000"
+    environment:
+      NODE_ENV: production
+      NUXT_HOST: 0.0.0.0
+      NUXT_PORT: 2002   # force nuxt to use 2002

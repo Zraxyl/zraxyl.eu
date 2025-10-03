@@ -54,7 +54,7 @@
         <NuxtLink to="/download" class="link link-hover">Download</NuxtLink>
         <NuxtLink to="/community" class="link link-hover">Community</NuxtLink>
         <NuxtLink to="/developers" class="link link-hover">Developers</NuxtLink>
-        <a href="https://github.com/zraxyl-os" target="_blank" class="link link-hover">GitHub</a>
+        <a href="https://github.com/zraxyl" target="_blank" class="link link-hover">GitHub</a>
       </nav>
       <nav>
         <div class="grid grid-flow-col gap-4">
