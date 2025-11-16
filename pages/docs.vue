@@ -24,12 +24,12 @@
                 <ul class="menu menu-compact">
                   <li><a href="#getting-started" class="hover:bg-primary hover:text-primary-content">Getting Started</a></li>
                   <li><a href="#installation" class="hover:bg-primary hover:text-primary-content">Installation</a></li>
-                  <li><a href="#configuration" class="hover:bg-primary hover:text-primary-content">Configuration</a></li>
-                  <li><a href="#package-management" class="hover:bg-primary hover:text-primary-content">Package Management</a></li>
+                  <li><a href="#base-installation" class="hover:bg-primary hover:text-primary-content">Configuration</a></li>
                   <li><a href="#desktop-environments" class="hover:bg-primary hover:text-primary-content">Desktop Environments</a></li>
-                  <li><a href="#security" class="hover:bg-primary hover:text-primary-content">Security Features</a></li>
-                  <li><a href="#development" class="hover:bg-primary hover:text-primary-content">Development</a></li>
+                  <li><a href="#repositories" class="hover:bg-primary hover:text-primary-content">Package Management</a></li>
                   <li><a href="#troubleshooting" class="hover:bg-primary hover:text-primary-content">Troubleshooting</a></li>
+                  <li><a href="#development" class="hover:bg-primary hover:text-primary-content">Development</a></li>
+                  <li><a href="#contributing" class="hover:bg-primary hover:text-primary-content">Contribution</a></li>
                 </ul>
               </div>
             </div>
@@ -98,8 +98,8 @@
                   <div class="card-body">
                     <h4 class="card-title text-lg">Minimum Requirements</h4>
                     <ul class="list-disc list-inside space-y-1">
-                      <li>2GB RAM (4GB for Desktop)</li>
-                      <li>20GB disk space (40GB recommended)</li>
+                      <li>4GB RAM (8GB for Desktop)</li>
+                      <li>40GB disk space (80GB recommended)</li>
                       <li>x86_64 or ARM64 processor</li>
                       <li>UEFI or BIOS boot support</li>
                       <li>Network connection for installation</li>
@@ -119,41 +119,6 @@
                   </div>
                 </div>
               </div>
-              
-              <h3 class="text-2xl font-semibold mb-4">Supported Hardware</h3>
-              <div class="overflow-x-auto mb-6">
-                <table class="table table-zebra">
-                  <thead>
-                    <tr>
-                      <th>Component</th>
-                      <th>Supported</th>
-                      <th>Notes</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>CPU</td>
-                      <td>Intel Core i3+, AMD Ryzen 3+, ARM Cortex-A72+</td>
-                      <td>64-bit required</td>
-                    </tr>
-                    <tr>
-                      <td>GPU</td>
-                      <td>Intel HD, AMD Radeon, NVIDIA GeForce</td>
-                      <td>Open source drivers preferred</td>
-                    </tr>
-                    <tr>
-                      <td>Network</td>
-                      <td>Ethernet, Wi-Fi 802.11n+, Bluetooth 4.0+</td>
-                      <td>Most chipsets supported</td>
-                    </tr>
-                    <tr>
-                      <td>Storage</td>
-                      <td>SATA, NVMe, eMMC, USB 3.0+</td>
-                      <td>RAID 0/1/5/10 supported</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
             </section>
 
             <!-- Installation -->
@@ -170,7 +135,7 @@
               </div>
 
               <div class="mockup-code mb-6">
-                <pre data-prefix="$"><code>curl -O https://releases.zraxyl.org/latest/zraxyl-server-x64.iso</code></pre>
+                <pre data-prefix="$"><code>curl -O https://files.zraxyl.eu/builds/iso/latest/zraxyl-server-x64.iso</code></pre>
                 <pre data-prefix="$"><code>sha256sum zraxyl-server-x64.iso</code></pre>
                 <pre data-prefix="$"><code>dd if=zraxyl-server-x64.iso of=/dev/sdX bs=4M status=progress</code></pre>
               </div>
@@ -194,25 +159,7 @@
               </ol>
             </section>
 
-            <!-- Configuration -->
-            <section id="configuration" class="mb-16">
-              <h2 class="text-3xl font-bold mb-6">Initial Configuration</h2>
-              
-              <h3 class="text-2xl font-semibold mb-4">First Boot Setup</h3>
-              <p class="mb-4">After your first boot, run the initial configuration wizard:</p>
-              
-              <div class="mockup-code mb-6">
-                <pre data-prefix="$"><code>sudo zraxyl-setup</code></pre>
-              </div>
 
-              <p class="mb-4">This will guide you through:</p>
-              <ul class="list-disc list-inside space-y-1 mb-6">
-                <li>Network configuration</li>
-                <li>Package manager setup</li>
-                <li>Security hardening options</li>
-                <li>Desktop environment selection (if applicable)</li>
-              </ul>
-            </section>
 
             <!-- Base Installation -->
             <section id="base-installation" class="mb-16">
@@ -564,52 +511,6 @@
               </div>
             </section>
 
-            <!-- Security Features -->
-            <section id="security" class="mb-16">
-              <h2 class="text-3xl font-bold mb-6">Security Features</h2>
-              
-              <div class="alert alert-success mb-6">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="stroke-current shrink-0 w-6 h-6">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                </svg>
-                <span>Zraxyl OS is designed with security as a top priority, featuring multiple layers of protection.</span>
-              </div>
-              
-              <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-                <div class="card bg-base-200">
-                  <div class="card-body">
-                    <h4 class="card-title">System Hardening</h4>
-                    <ul class="list-disc list-inside space-y-2 text-sm">
-                      <li><strong>Kernel:</strong> Hardened kernel with KASLR, SMEP, SMAP</li>
-                      <li><strong>Memory:</strong> Stack canaries, DEP/NX bit, ASLR</li>
-                      <li><strong>Filesystem:</strong> Mandatory Access Control (MAC)</li>
-                      <li><strong>Network:</strong> Built-in firewall with sensible defaults</li>
-                    </ul>
-                  </div>
-                </div>
-                
-                <div class="card bg-base-200">
-                  <div class="card-body">
-                    <h4 class="card-title">Encryption & Authentication</h4>
-                    <ul class="list-disc list-inside space-y-2 text-sm">
-                      <li><strong>Disk:</strong> Full disk encryption with LUKS2</li>
-                      <li><strong>Boot:</strong> Secure Boot with custom keys</li>
-                      <li><strong>Auth:</strong> PAM with 2FA support</li>
-                      <li><strong>Network:</strong> WireGuard VPN integration</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              
-              <h3 class="text-2xl font-semibold mb-4">Security Tools</h3>
-              <div class="mockup-code mb-6">
-                <pre data-prefix="$"><code>zraxyl-security-audit              # Run security audit</code></pre>
-                <pre data-prefix="$"><code>zraxyl-firewall-config             # Configure firewall</code></pre>
-                <pre data-prefix="$"><code>zraxyl-encrypt-home                # Encrypt home directory</code></pre>
-                <pre data-prefix="$"><code>zraxyl-vuln-scan                   # Vulnerability scanner</code></pre>
-              </div>
-            </section>
-
             <!-- Package Management -->
             <section id="package-management" class="mb-16">
               <h2 class="text-3xl font-bold mb-6">Package Management</h2>
@@ -780,7 +681,7 @@
                 </div>
               </div>
 
-              <h3 class="text-2xl font-semibold mb-4">Contributing to Zraxyl</h3>
+              <h3 class="text-2xl font-semibold mb-4" id="contributing">Contributing to Zraxyl</h3>
               <p class="mb-4">We welcome contributions to package development and system improvements:</p>
               
               <div class="steps steps-vertical lg:steps-horizontal mb-6">

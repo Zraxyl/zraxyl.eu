@@ -55,7 +55,7 @@
     <CommunitySection />
 
     <!-- Connect With Us -->
-    <section class="py-16">
+    <section class="py-16 bg-base-100">
       <div class="container mx-auto px-4">
         <div class="text-center mb-12">
           <h2 class="text-3xl font-bold mb-4">Connect With Us</h2>
@@ -73,16 +73,6 @@
               </div>
               <h3 class="text-2xl font-bold mb-2">Telegram</h3>
               <p class="text-base-content/70 mb-4">Get instant notifications and join our fast-paced community discussions.</p>
-              <div class="stats stats-vertical lg:stats-horizontal shadow mb-4">
-                <div class="stat place-items-center">
-                  <div class="stat-title">Members</div>
-                  <div class="stat-value text-info text-lg">15.3K</div>
-                </div>
-                <div class="stat place-items-center">
-                  <div class="stat-title">Messages</div>
-                  <div class="stat-value text-accent text-lg">47K</div>
-                </div>
-              </div>
               <a href="https://t.me/zraxyl" target="_blank" class="btn btn-info btn-wide">
                 Join Channel
               </a>
@@ -99,16 +89,6 @@
               </div>
               <h3 class="text-2xl font-bold mb-2">Discord Server</h3>
               <p class="text-base-content/70 mb-4">Join our active Discord community for real-time support, discussions, and updates.</p>
-              <div class="stats stats-vertical lg:stats-horizontal shadow mb-4">
-                <div class="stat place-items-center">
-                  <div class="stat-title">Members</div>
-                  <div class="stat-value text-primary text-lg">8.2K</div>
-                </div>
-                <div class="stat place-items-center">
-                  <div class="stat-title">Online</div>
-                  <div class="stat-value text-secondary text-lg">1.3K</div>
-                </div>
-              </div>
               <a href="https://discord.gg/nnjnZEeCJM" target="_blank" class="btn btn-primary btn-wide">
                 Join Discord
               </a>
@@ -125,111 +105,9 @@
               </div>
               <h3 class="text-2xl font-bold mb-2">GitHub Repository</h3>
               <p class="text-base-content/70 mb-4">Browse source code, report issues, and contribute to Zraxyl OS development.</p>
-              <div class="stats stats-vertical lg:stats-horizontal shadow mb-4">
-                <div class="stat place-items-center">
-                  <div class="stat-title">Stars</div>
-                  <div class="stat-value text-warning text-lg">3.8K</div>
-                </div>
-                <div class="stat place-items-center">
-                  <div class="stat-title">Forks</div>
-                  <div class="stat-value text-info text-lg">642</div>
-                </div>
-              </div>
               <a href="https://github.com/zraxyl" target="_blank" class="btn btn-accent btn-wide">
                 View on GitHub
               </a>
-            </div>
-          </div>
-
-
-        </div>
-      </div>
-    </section>
-
-    <!-- Get Involved -->
-    <section class="py-16 bg-base-200">
-      <div class="container mx-auto px-4">
-        <div class="text-center mb-12">
-          <h2 class="text-3xl font-bold mb-4">Get Involved</h2>
-          <p class="text-lg text-base-content/70">There are many ways to contribute to Zraxyl OS</p>
-        </div>
-        
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
-          <div class="card bg-base-100 shadow-lg">
-            <div class="card-body">
-              <div class="w-12 h-12 bg-primary rounded-lg flex items-center justify-center mb-4">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-primary-content" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
-                </svg>
-              </div>
-              <h3 class="card-title mb-2">Code Contributions</h3>
-              <p class="text-base-content/70 mb-4">Help improve the kernel, system tools, and applications</p>
-              <a href="#" class="btn btn-outline btn-primary">Start Contributing</a>
-            </div>
-          </div>
-
-          <div class="card bg-base-100 shadow-lg">
-            <div class="card-body">
-              <div class="w-12 h-12 bg-secondary rounded-lg flex items-center justify-center mb-4">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-secondary-content" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                </svg>
-              </div>
-              <h3 class="card-title mb-2">Documentation</h3>
-              <p class="text-base-content/70 mb-4">Write guides, tutorials, and improve existing docs</p>
-              <a href="#" class="btn btn-outline btn-secondary">Help with Docs</a>
-            </div>
-          </div>
-
-          <div class="card bg-base-100 shadow-lg">
-            <div class="card-body">
-              <div class="w-12 h-12 bg-accent rounded-lg flex items-center justify-center mb-4">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-accent-content" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
-                </svg>
-              </div>
-              <h3 class="card-title mb-2">Community Support</h3>
-              <p class="text-base-content/70 mb-4">Help other users in forums and chat channels</p>
-              <a href="#" class="btn btn-outline btn-accent">Join Support Team</a>
-            </div>
-          </div>
-
-          <div class="card bg-base-100 shadow-lg">
-            <div class="card-body">
-              <div class="w-12 h-12 bg-info rounded-lg flex items-center justify-center mb-4">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-info-content" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-              </div>
-              <h3 class="card-title mb-2">Bug Reporting</h3>
-              <p class="text-base-content/70 mb-4">Report issues and help test new features</p>
-              <a href="#" class="btn btn-outline btn-info">Report Bugs</a>
-            </div>
-          </div>
-
-          <div class="card bg-base-100 shadow-lg">
-            <div class="card-body">
-              <div class="w-12 h-12 bg-success rounded-lg flex items-center justify-center mb-4">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-success-content" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
-                </svg>
-              </div>
-              <h3 class="card-title mb-2">Spread the Word</h3>
-              <p class="text-base-content/70 mb-4">Share Zraxyl OS with friends and colleagues</p>
-              <a href="#" class="btn btn-outline btn-success">Share Zraxyl</a>
-            </div>
-          </div>
-
-          <div class="card bg-base-100 shadow-lg">
-            <div class="card-body">
-              <div class="w-12 h-12 bg-warning rounded-lg flex items-center justify-center mb-4">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-warning-content" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
-                </svg>
-              </div>
-              <h3 class="card-title mb-2">Donate</h3>
-              <p class="text-base-content/70 mb-4">Support development with financial contributions</p>
-              <a href="#" class="btn btn-outline btn-warning">Donate Now</a>
             </div>
           </div>
         </div>

@@ -13,6 +13,7 @@
         <div class="card bg-base-100 shadow-xl">
           <div class="card-body">
             <h3 class="card-title text-2xl mb-4 text-primary">Desktop Edition</h3>
+            <div class="badge badge-warning badge-sm mb-2">TODO</div>
             <div class="space-y-3 mb-6">
               <div class="flex items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-success mr-2" viewBox="0 0 20 20" fill="currentColor">
@@ -34,25 +35,25 @@
               </div>
             </div>
             <div class="text-sm text-base-content/60 mb-4">
-              ISO Size: ~2.1 GB<br/>
+              ISO Size: ~4 GB<br/>
               Architecture: x64
             </div>
             <div class="card-actions justify-end">
-              <button class="btn btn-primary btn-block">
+              <a href="https://github.com/zraxyl" target="_blank" class="btn btn-primary btn-block">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                 </svg>
                 Download
-              </button>
+              </a>
             </div>
           </div>
         </div>
 
-        <!-- Server Edition -->
+        <!-- Base Minimal Live Edition -->
         <div class="card bg-base-100 shadow-xl border-2 border-primary">
           <div class="card-body">
             <div class="badge badge-primary badge-sm mb-2">Recommended</div>
-            <h3 class="card-title text-2xl mb-4 text-primary">Server Edition</h3>
+            <h3 class="card-title text-2xl mb-4 text-primary">Base Minimal Live</h3>
             <div class="space-y-3 mb-6">
               <div class="flex items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-success mr-2" viewBox="0 0 20 20" fill="currentColor">
@@ -74,16 +75,16 @@
               </div>
             </div>
             <div class="text-sm text-base-content/60 mb-4">
-              ISO Size: ~650 MB<br/>
+              ISO Size: ~3 GB<br/>
               Architecture: x64
             </div>
             <div class="card-actions justify-end">
-              <button class="btn btn-primary btn-block">
+              <a href="https://github.com/Zraxyl/workflows/actions/workflows/iso_amd64.yml" target="_blank" class="btn btn-primary btn-block">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                 </svg>
                 Download
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -92,6 +93,7 @@
         <div class="card bg-base-100 shadow-xl">
           <div class="card-body">
             <h3 class="card-title text-2xl mb-4 text-primary">Developer Edition</h3>
+            <div class="badge badge-warning badge-sm mb-2">TODO</div>
             <div class="space-y-3 mb-6">
               <div class="flex items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-success mr-2" viewBox="0 0 20 20" fill="currentColor">
@@ -113,16 +115,16 @@
               </div>
             </div>
             <div class="text-sm text-base-content/60 mb-4">
-              ISO Size: ~3.2 GB<br/>
+              ISO Size: ~5 GB<br/>
               Architecture: x64
             </div>
             <div class="card-actions justify-end">
-              <button class="btn btn-primary btn-block">
+              <a href="https://github.com/zraxyl" target="_blank" class="btn btn-primary btn-block">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                 </svg>
                 Download
-              </button>
+              </a>
             </div>
           </div>
         </div>
